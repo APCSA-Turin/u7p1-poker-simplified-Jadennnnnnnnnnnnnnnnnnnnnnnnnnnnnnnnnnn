@@ -16,7 +16,7 @@ public class Player{
     public ArrayList<Card> getAllCards(){return allCards;}
 
     public void addCard(Card c){
-        
+        hand.add(c);
     }
 
     public String playHand(ArrayList<Card> communityCards){      
